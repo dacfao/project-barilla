@@ -1,0 +1,95 @@
+/* Styles généraux */
+body {
+  background-color: #1E1E2E;
+  color: #C9C9FF;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Liens */
+a {
+  color: #B583FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D0AFFF;
+  text-decoration: underline;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  color: #D0AFFF;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+/* Conteneurs */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #252537;
+  color: #C9C9FF;
+  padding: 15px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: #B583FF;
+}
+
+.sidebar a:hover {
+  background-color: #33334D;
+  color: #D0AFFF;
+}
+.logobrarilla{
+width: 100px;
+height: 100px;
+}
+.Fusilli\ Al\ Bronzo input { background-color: red; color: white; }
+.Fusilloni\ Al\ Bronzo input { background-color: blue; color: white; }
+.Linguine\ Al\ Bronzo input { background-color: green; color: white; }
+.Mezzi\ Rigatoni\ Al\ Bronzo input { background-color: orange; color: white; }
+.Penne\ Rigate\ Al\ Bronzo input { background-color: purple; color: white; }
+.Spaghetti\ Al\ Bronzo input { background-color: pink; color: black; }
+.Spaghettoni\ Al\ Bronzo input { background-color: yellow; color: black; }
+.Coquillettes\ blé\ complet input { background-color: brown; color: white; }
+.Farfalle\ Integrale input { background-color: teal; color: white; }
+.Fusilli\ Blé\ Complet input { background-color: gray; color: white; }
+.Linguine\ Blé\ Complet input { background-color: cyan; color: black; }
+.Penne\ Rigate\ Blé\ Complet input { background-color: magenta; color: white; }
+.Spaghetti\ Blé\ Complet input { background-color: lime; color: black; }
+.Tortiglioni\ Blé\ Complet input { background-color: navy; color: white; }
+.Cannelloni input { background-color: olive; color: white; }
+.Casarecce input { background-color: maroon; color: white; }
+.Castellane input { background-color: coral; color: black; }
+.Conchiglie input { background-color: indigo; color: white; }
+.Farfalle\ Generose input { background-color: gold; color: black; }
+.Fettuccine input { background-color: darkred; color: white; }
+.Fusilli\ Bucati\ Corti input { background-color: darkblue; color: white; }
+.Lasagne\ con\ Spinaci input { background-color: darkgreen; color: white; }
+.Lasagne\ semola\ Collezione input { background-color: darkorange; color: black; }
+.Mafaldine input { background-color: darkviolet; color: white; }
+.Mezze\ Penne\ Tricolore input { background-color: lightblue; color: black; }
+.Orecchiette input { background-color: lightcoral; color: black; }
+.Tagliatelle input { background-color: lightgreen; color: black; }
+.Tagliatelle\ aux\ Épinards input { background-color: lightsalmon; color: black; }
+.Tortellini\ au\ Jambon\ et\ au\ Fromage input { background-color: lightseagreen; color: black; }
