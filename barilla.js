@@ -1,0 +1,5 @@
+const seconde= document.querySelector('.secondes.number')
+const heure= document.querySelector('.heure.number')
+const minutes= document.querySelector('.minutes.number')
+const jour= document.querySelector('.jours.number')
+console.log(seconde,minutes,heure,jour)
