@@ -1,5 +1,10 @@
-const seconde= document.querySelector('.secondes.number')
-const heure= document.querySelector('.heure.number')
-const minutes= document.querySelector('.minutes.number')
-const jour= document.querySelector('.jours.number')
-console.log(seconde,minutes,heure,jour)
+const StartingMinutes=10;
+let time= StartingMinutes*60;
+const countdown=document.getElementById('countdown')
+setInterval(updateCountdown,1000);
+function updateCountdown(){
+    const minutes=Math.floor(time/60);
+    let seconds=time%60;
+    countdownEl.innerHtml=  `${minutes} :${seconds}`;
+    time--;
+}
