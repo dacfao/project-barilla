@@ -1,0 +1,91 @@
+/* Styles généraux */
+body {
+  background-color: #1E1E2E;
+  color: #C9C9FF;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+  .timer1 {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: white;
+    position: relative;
+    top: 40px; left: 40px;
+  }
+  
+  .timer__part {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .timer__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #8208e6;
+    cursor: pointer;
+    
+  }
+
+  .timer__btn--start {
+    background: #00b84c;
+  }
+  
+  .timer__btn--stop {
+    background: #ff0256;
+  }
+  /* Liens */
+a {
+  color: #B583FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D0AFFF;
+  text-decoration: underline;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  color: #D0AFFF;
+
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 { 
+  font-size: 1.75rem;
+}
+/* Conteneurs */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+img {
+
+  border-radius: 4px;
+  padding: 5px;
+  width: 30px;
+}
+.pause-btn{
+  width: auto;
+  margin: auto;
+  padding: 20px;
+}

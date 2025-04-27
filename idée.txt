@@ -1,0 +1,4 @@
+cacher et désactivé le bouton un bouton  quand l'autre est allumé
+
+faire une classe bouton puis faire de l'héritage avec des différent type de boutons 
+bouton plus ,bouton moins ,boutant stop, bouton activé puis connecté au défileur de temps , bouton paraméteur avec un anglait de création du minuteur 
